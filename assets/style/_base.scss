@@ -2,9 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Montserrat;
+  font-family: Poppins, Montserrat;
 }
-
 
 button {
   border: none;
@@ -18,7 +17,6 @@ ul {
 img {
   max-width: 100%;
   border-radius: inherit;
-
 }
 
 a {
@@ -27,8 +25,19 @@ a {
 }
 
 .container {
- max-width:  1440px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 16px;
   width: 100%;
+}
+
+.btn {
+  border-radius: 8px;
+  background: #fa002c;
+  color: white;
+  transition: 0.12s ease;
+}
+
+.btn:hover {
+  filter: drop-shadow(0 0 5px #fa002c);
 }
