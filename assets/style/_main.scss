@@ -21,12 +21,11 @@ header {
     color: #242424;
   }
 
-    &__titles li:hover{
-      transform: translateY(-1px);
-      color: rgb(255, 54, 54);
-      filter: drop-shadow(0 0 3px rgb(255, 30, 30));
-
-    }
+  &__titles li:hover {
+    transform: translateY(-1px);
+    color: rgb(255, 54, 54);
+    filter: drop-shadow(0 0 3px rgb(255, 30, 30));
+  }
   &__button {
     height: 55px;
     width: 250px;
@@ -37,6 +36,10 @@ header {
     align-items: center;
     background: #fa002c;
     border-radius: 8px;
+    transition: 0.12s ease;
+  }
+  &__button:hover {
+    filter: drop-shadow(0 0 5px red);
   }
 
   &__button button {
@@ -340,46 +343,144 @@ header {
   &__card:hover {
     transform: translateY(-5px);
   }
-
-
 }
 
-
-.contacts{
-
+.contacts {
   margin-top: 80px;
 
-  &__cards{
+  &__cards {
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
   }
-  h5{
+  h5 {
     font-family: Montserrat;
-font-weight: 700;
-font-size: 50px;
-line-height: 69px;
-letter-spacing: 0%;
-
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 69px;
+    letter-spacing: 0%;
   }
 
-  &__card{
+  &__card {
     padding: 15px;
     border-radius: 36px;
-    border: 6px solid #FA002C33
+    border: 6px solid #fa002c33;
+    transition: 0.15s ease;
   }
 
-  &__name{
+    &__card:hover{
+      transform: translateY(-4px);
+      filter: drop-shadow(0 0 10px #fa002c33);
+    }
+
+  &__name {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: Montserrat;
-font-weight: 500;
-font-size: 25px;
-line-height: 100%;
-letter-spacing: 0%;
-display: flex;
-justify-content: space-between;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
+.free {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-image: url(../../assets/images/hundabg.png);
+  height: 500px;
+  border: 7px solid #e7e7e7;
+  border-radius: 36px;
 
+  &__titles {
+    padding: 50px;
+  }
+
+  &__button {
+    height: 55px;
+    width: 250px;
+    margin-top: 30px;
+    display: flex;
+
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    background: #fa002c;
+    border-radius: 8px;
+    transition: 0.12s ease;
+  }
+  &__button:hover {
+    filter: drop-shadow(0 0 5px red);
+  }
+
+  h6 {
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 69px;
+    letter-spacing: 0%;
+  }
+  h6 span {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 69px;
+    letter-spacing: 0%;
+    color: #fa002c;
+  }
+}
+
+.footer {
+  margin-top: 100px;
+  background: #eeeeee;
+  &__child {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    height: 55px;
+    width: 250px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    background: #fa002c;
+    border-radius: 8px;
+    transition: 0.1s ease;
+  }
+
+  &__button:hover {
+    filter: drop-shadow(0 0 5px red);
+  }
+
+  &__button button {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  &__button-img {
+    margin-top: 5px;
+  }
+
+  &__informationn p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0%;
+  }
+}
