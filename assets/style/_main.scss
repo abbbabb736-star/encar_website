@@ -2,12 +2,25 @@ header {
   background-image: url(../../assets/images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
   &__titles {
     display: flex;
     gap: 30px;
@@ -59,6 +72,12 @@ header {
   display: flex;
   margin-top: 60px;
   padding-bottom: 60px;
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
   &__titles {
     background: #ffffffa3;
     padding: 35px;
@@ -122,6 +141,12 @@ header {
 }
 
 .process {
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
   background: #f4f6f8;
 
   &__child {
@@ -170,6 +195,12 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
+      @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
   }
   &__img {
     padding-bottom: 40px;
@@ -188,6 +219,12 @@ header {
   }
 }
 .help {
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
   margin-top: 80px;
   &__informations {
     padding: 40px;
@@ -195,6 +232,12 @@ header {
     background-image: url(../../assets/images/audi.png);
     background-repeat: no-repeat;
     background-size: cover;
+      @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  } 
   }
   h3 {
     font-family: Montserrat;
@@ -247,6 +290,12 @@ header {
     margin-left: 50px;
     gap: 30px;
     margin-top: 50px;
+      @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
   }
 
   &__card {
@@ -283,6 +332,12 @@ header {
 
 .top-cars {
   margin-top: 100px;
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 
   h4 {
     font-family: Montserrat;
@@ -347,6 +402,12 @@ header {
 
 .contacts {
   margin-top: 80px;
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 
   &__cards {
     display: flex;
@@ -387,6 +448,12 @@ header {
 }
 
 .free {
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
   margin-top: 80px;
   margin-bottom: 80px;
   background-image: url(../../assets/images/hundabg.png);
@@ -438,6 +505,12 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 80px;
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 
   &__title {
     display: flex;
@@ -504,6 +577,12 @@ header {
 .footer {
   margin-top: 100px;
   background: #eeeeee;
+  @media (max-width: 1100px) {
+    max-width: 768px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
   &__child {
     padding-top: 50px;
     padding-bottom: 50px;
