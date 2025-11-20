@@ -368,10 +368,10 @@ header {
     transition: 0.15s ease;
   }
 
-    &__card:hover{
-      transform: translateY(-4px);
-      filter: drop-shadow(0 0 10px #fa002c33);
-    }
+  &__card:hover {
+    transform: translateY(-4px);
+    filter: drop-shadow(0 0 10px #fa002c33);
+  }
 
   &__name {
     margin-top: 20px;
@@ -431,6 +431,74 @@ header {
     letter-spacing: 0%;
     color: #fa002c;
   }
+}
+
+.benefits {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+
+  &__title {
+    display: flex;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #c2c2c2;
+    align-items: center;
+    gap: 20px;
+    width: 380px;
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #000000;
+    transition: 0.18s ease;
+  }
+
+  &__title:hover {
+    color: red;
+    transform: translateY(-5px);
+  }
+  &__title p {
+    transition: 0.12s ease;
+  }
+
+  &__card {
+    box-shadow: 0px 2px 50px 0px #0000001f;
+    padding: 15px;
+    border-radius: 36px;
+    height: 500px;
+    transition: 0.12s ease;
+  }
+
+  &__card:hover {
+    transform: translateY(-5px);
+  }
+
+  &__card p {
+    padding-left: 15px;
+  }
+  &__card-title {
+    font-family: Montserrat;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.benefit p {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 69px;
+  letter-spacing: 0%;
+  margin-top: 100px;
 }
 
 .footer {
